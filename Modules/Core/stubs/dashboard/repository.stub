@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+use Modules\Core\Repositories\Dashboard\CrudRepository;
+
+class {{ class }} extends CrudRepository
+{
+    //
+}

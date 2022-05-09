@@ -1,0 +1,13 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+use Illuminate\Routing\Controller;
+use Modules\Core\Traits\Dashboard\CrudDashboardController;
+
+class {{ class }} extends Controller
+{
+    use CrudDashboardController;
+}

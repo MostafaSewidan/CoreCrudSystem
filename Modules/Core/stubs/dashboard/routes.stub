@@ -1,0 +1,13 @@
+<?php
+use Illuminate\Support\Facades\Route;
+
+Route::name('dashboard.')->group( function () {
+
+    Route::get('{{ route }}/datatable'	,'{{ controller }}@datatable')
+        ->name('{{ route }}.datatable');
+
+    Route::get('{{ route }}/deletes'	,'{{ controller }}@deletes')
+        ->name('{{ route }}.deletes');
+
+    Route::resource('{{ route }}','{{ controller }}')->names('{{ route }}');
+});

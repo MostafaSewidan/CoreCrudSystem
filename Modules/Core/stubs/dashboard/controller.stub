@@ -1,0 +1,11 @@
+<?php
+
+namespace {{ namespace }};
+
+use Illuminate\Routing\Controller;
+use Modules\Core\Traits\Dashboard\CrudDashboardController;
+
+class {{ class }} extends Controller
+{
+    use CrudDashboardController;
+}
